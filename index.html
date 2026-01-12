@@ -3,25 +3,38 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Аудио другой способ</title>
+<title>-----</title>
 <style>
-    body {
-        background-color: #000; /* черный фон */
-        margin: 0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-    }
-    /* Сделаем плеер меньше и центрируем */
-    #audio-container {
-        width: 300px;
-        height: 50px;
-    }
+  body {
+    background-color: #000; /* черный фон */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  .container {
+    text-align: center;
+    color: #fff; /* белый текст */
+  }
+  h1 {
+    margin-bottom: 20px;
+  }
+  audio {
+    width: 100%;
+    max-width: 600px;
+  }
 </style>
 </head>
 <body>
-    <!-- Другой способ вставки аудио -->
-    <embed src="2.mp3" type="audio/mpeg" width="300" height="50" controls />
+<div class="container">
+  <h1>----</h1>
+  <audio controls>
+    <source src="https://audio.vocaroo.com/your-link-here.mp3" type="audio/mpeg" />
+    Ваш браузер не поддерживает элемент audio.
+  </audio>
+  <p>-----; <a href="https://audio.vocaroo.com/your-link-here.mp3" style="color:#0f0;">https://audio.vocaroo.com/your-link-here.mp3</a></p>
+</div>
 </body>
 </html>
