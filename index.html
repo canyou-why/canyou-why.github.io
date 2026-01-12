@@ -3,33 +3,25 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>-</title>
+<title>Аудио другой способ</title>
 <style>
     body {
-        background-color: #000; /* Чистый черный */
+        background-color: #000; /* черный фон */
         margin: 0;
         display: flex;
         justify-content: center;
         align-items: center;
         height: 100vh;
-        overflow: hidden;
     }
-
-    /* Делаем стандартный плеер белым, чтобы он выделялся на черном */
-    audio {
-        filter: invert(100%);
+    /* Сделаем плеер меньше и центрируем */
+    #audio-container {
         width: 300px;
-        outline: none;
+        height: 50px;
     }
 </style>
 </head>
 <body>
-
-    <!-- Добавленный аудио плеер -->
-    <audio controls>
-        <source src="2.mp3" type="audio/mpeg" />
-        Тег audio не поддерживается.
-    </audio>
-
+    <!-- Другой способ вставки аудио -->
+    <embed src="2.mp3" type="audio/mpeg" width="300" height="50" controls />
 </body>
 </html>
